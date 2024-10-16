@@ -1,0 +1,8 @@
+userShoot = input()
+computerShoot = randint(1,3)
+if computerShoot == 1:
+  computerShoot = "rock"
+elif computerShoot == 2:
+  computerShoot = "paper"
+else:
+  computerShoot = "scissors"
